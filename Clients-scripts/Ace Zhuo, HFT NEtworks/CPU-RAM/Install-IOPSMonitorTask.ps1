@@ -1,0 +1,115 @@
+#Requires -RunAsAdministrator
+[CmdletBinding(SupportsShouldProcess)]
+param(
+    [Parameter(Mandatory = $true)]
+    [ValidateSet('Install', 'Remove', 'Status')]
+    [string]$Action,
+
+    [Parameter(Mandatory = $false)]
+    [string]$DiscordWebhookUrl = '',
+
+    [Parameter(Mandatory = $false)]
+    [int]$ThresholdPercent = 80,
+
+    [Parameter(Mandatory = $false)]
+    [int]$BaselineDurationMinutes = 10,
+
+    [Parameter(Mandatory = $false)]
+    [int]$SampleIntervalSeconds = 30,
+
+    [Parameter(Mandatory = $false)]
+    [int]$AlertCooldownMinutes = 10,
+
+    [Parameter(Mandatory = $false)]
+    [string]$ScriptPath = "$PSScriptRoot\Watch-HyperVIOPS.ps1"
+)
+
+$TaskName = 'HyperV-IOPS-Monitor'
+
+if ($Action -eq 'Status') {
+    $task = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
+    if ($task) {
+        $info = Get-ScheduledTaskInfo -TaskName $TaskName
+        Write-Host ""
+        Write-Host " Scheduled Task : $TaskName" -ForegroundColor Cyan
+        Write-Host " State          : $($task.State)"
+        Write-Host " Last Run       : $($info.LastRunTime)"
+        Write-Host " Last Result    : $($info.LastTaskResult)"
+        Write-Host " Next Run       : $($info.NextRunTime)"
+        Write-Host ""
+    }
+    else {
+        Write-Host " Task '$TaskName' is not installed." -ForegroundColor Yellow
+    }
+}
+
+if ($Action -eq 'Remove') {
+    $task = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
+    if ($task) {
+        Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false
+        Write-Host " Task '$TaskName' removed." -ForegroundColor Green
+    }
+    else {
+        Write-Host " Task '$TaskName' not found." -ForegroundColor Yellow
+    }
+}
+
+if ($Action -eq 'Install') {
+
+    if (-not $DiscordWebhookUrl) {
+        Write-Error "DiscordWebhookUrl is required for Install."
+        exit 1
+    }
+
+    if (-not (Test-Path $ScriptPath)) {
+        Write-Error "Script not found at: $ScriptPath"
+        exit 1
+    }
+
+    $psArgs = "-NonInteractive -NoProfile -ExecutionPolicy Bypass -File " + '"' + $ScriptPath + '"' +
+              " -DiscordWebhookUrl " + '"' + $DiscordWebhookUrl + '"' +
+              " -ThresholdPercent " + $ThresholdPercent +
+              " -BaselineDurationMinutes " + $BaselineDurationMinutes +
+              " -SampleIntervalSeconds " + $SampleIntervalSeconds +
+              " -AlertCooldownMinutes " + $AlertCooldownMinutes
+
+    $taskAction = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument $psArgs
+
+    $trigger = New-ScheduledTaskTrigger -AtStartup
+
+    $settings = New-ScheduledTaskSettingsSet `
+        -ExecutionTimeLimit (New-TimeSpan -Hours 0) `
+        -RestartCount 5 `
+        -RestartInterval (New-TimeSpan -Minutes 2) `
+        -MultipleInstances IgnoreNew `
+        -StartWhenAvailable
+
+    $principal = New-ScheduledTaskPrincipal -UserId 'SYSTEM' -LogonType ServiceAccount -RunLevel Highest
+
+    Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false -ErrorAction SilentlyContinue
+
+    Register-ScheduledTask `
+        -TaskName    $TaskName `
+        -Action      $taskAction `
+        -Trigger     $trigger `
+        -Settings    $settings `
+        -Principal   $principal `
+        -Description "Monitors Hyper-V VMs for high IOPS and alerts Discord." | Out-Null
+
+    Write-Host ""
+    Write-Host " Task '$TaskName' installed successfully." -ForegroundColor Green
+    Write-Host " Runs as    : SYSTEM"
+    Write-Host " Trigger    : At system startup"
+    Write-Host " Script     : $ScriptPath"
+    Write-Host " Threshold  : $ThresholdPercent% of each VM peak IOPS"
+    Write-Host " Interval   : $SampleIntervalSeconds seconds"
+    Write-Host ""
+    Write-Host " Starting task now..." -ForegroundColor Cyan
+
+    Start-ScheduledTask -TaskName $TaskName
+    Start-Sleep -Seconds 2
+
+    $state = (Get-ScheduledTask -TaskName $TaskName).State
+    Write-Host " Task state : $state" -ForegroundColor Green
+    Write-Host ""
+}

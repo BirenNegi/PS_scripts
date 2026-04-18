@@ -1,0 +1,275 @@
+﻿[2026-04-16 15:15:53] [INFO] =============================================
+[2026-04-16 15:15:53] [INFO]  Hyper-V IOPS Monitor starting
+[2026-04-16 15:15:53] [INFO]  Node              : DESKTOP-LPV9HSD
+[2026-04-16 15:15:53] [INFO]  Threshold         : 80% of each VM peak
+[2026-04-16 15:15:53] [INFO]  Baseline window   : 10 minutes
+[2026-04-16 15:15:53] [INFO]  Poll Interval     : 30s
+[2026-04-16 15:15:53] [INFO]  Alert Cooldown    : 10m
+[2026-04-16 15:15:53] [INFO]  Log File          : C:\Scripts\HyperV-IOPS-Monitor.log
+[2026-04-16 15:15:53] [INFO] =============================================
+[2026-04-16 15:15:53] [INFO] BASELINE PHASE started - learning peak IOPS for 10 minutes...
+[2026-04-16 15:15:59] [INFO] BASELINE | VM: WIndows-11 | IOPS: 233 | Peak so far: 233
+[2026-04-16 15:15:59] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 15:16:33] [INFO] BASELINE | VM: WIndows-11 | IOPS: 566 | Peak so far: 566
+[2026-04-16 15:16:33] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 15:17:07] [INFO] BASELINE | VM: WIndows-11 | IOPS: 284 | Peak so far: 566
+[2026-04-16 15:17:07] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 15:17:41] [INFO] BASELINE | VM: WIndows-11 | IOPS: 249 | Peak so far: 566
+[2026-04-16 15:17:41] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 15:18:16] [INFO] BASELINE | VM: WIndows-11 | IOPS: 95 | Peak so far: 566
+[2026-04-16 15:18:16] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 16:25:59] [INFO] =============================================
+[2026-04-16 16:25:59] [INFO]  Hyper-V IOPS Monitor starting
+[2026-04-16 16:25:59] [INFO]  Node              : DESKTOP-LPV9HSD
+[2026-04-16 16:25:59] [INFO]  Threshold         : 80% of each VM peak
+[2026-04-16 16:25:59] [INFO]  Baseline window   : 10 minutes
+[2026-04-16 16:25:59] [INFO]  Poll Interval     : 30s
+[2026-04-16 16:25:59] [INFO]  Alert Cooldown    : 1m
+[2026-04-16 16:25:59] [INFO]  Log File          : C:\Scripts\HyperV-IOPS-Monitor.log
+[2026-04-16 16:25:59] [INFO] =============================================
+[2026-04-16 16:25:59] [INFO] BASELINE PHASE started - learning peak IOPS for 10 minutes...
+[2026-04-16 16:26:05] [INFO] BASELINE | VM: WIndows-11 | IOPS: 541 | Peak so far: 541
+[2026-04-16 16:26:05] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 0
+[2026-04-16 16:26:39] [INFO] BASELINE | VM: WIndows-11 | IOPS: 1153 | Peak so far: 1153
+[2026-04-16 16:26:39] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 1 | Peak so far: 1
+[2026-04-16 16:27:13] [INFO] BASELINE | VM: WIndows-11 | IOPS: 951 | Peak so far: 1153
+[2026-04-16 16:27:13] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:27:47] [INFO] BASELINE | VM: WIndows-11 | IOPS: 594 | Peak so far: 1153
+[2026-04-16 16:27:47] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:28:22] [INFO] BASELINE | VM: WIndows-11 | IOPS: 1704 | Peak so far: 1704
+[2026-04-16 16:28:22] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:28:56] [INFO] BASELINE | VM: WIndows-11 | IOPS: 1144 | Peak so far: 1704
+[2026-04-16 16:28:56] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:29:30] [INFO] BASELINE | VM: WIndows-11 | IOPS: 33 | Peak so far: 1704
+[2026-04-16 16:29:30] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 1 | Peak so far: 1
+[2026-04-16 16:30:04] [INFO] BASELINE | VM: WIndows-11 | IOPS: 808 | Peak so far: 1704
+[2026-04-16 16:30:04] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:30:38] [INFO] BASELINE | VM: WIndows-11 | IOPS: 517 | Peak so far: 1704
+[2026-04-16 16:30:38] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:31:12] [INFO] BASELINE | VM: WIndows-11 | IOPS: 541 | Peak so far: 1704
+[2026-04-16 16:31:12] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 1 | Peak so far: 1
+[2026-04-16 16:31:46] [INFO] BASELINE | VM: WIndows-11 | IOPS: 655 | Peak so far: 1704
+[2026-04-16 16:31:46] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:32:21] [INFO] BASELINE | VM: WIndows-11 | IOPS: 763 | Peak so far: 1704
+[2026-04-16 16:32:21] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:32:55] [INFO] BASELINE | VM: WIndows-11 | IOPS: 692 | Peak so far: 1704
+[2026-04-16 16:32:55] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:33:29] [INFO] BASELINE | VM: WIndows-11 | IOPS: 1945 | Peak so far: 1945
+[2026-04-16 16:33:29] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 1 | Peak so far: 1
+[2026-04-16 16:34:03] [INFO] BASELINE | VM: WIndows-11 | IOPS: 1068 | Peak so far: 1945
+[2026-04-16 16:34:03] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:34:37] [INFO] BASELINE | VM: WIndows-11 | IOPS: 286 | Peak so far: 1945
+[2026-04-16 16:34:37] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 0 | Peak so far: 1
+[2026-04-16 16:35:11] [INFO] BASELINE | VM: WIndows-11 | IOPS: 354 | Peak so far: 1945
+[2026-04-16 16:35:11] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 3172 | Peak so far: 3172
+[2026-04-16 16:35:45] [INFO] BASELINE | VM: WIndows-11 | IOPS: 19 | Peak so far: 1945
+[2026-04-16 16:35:45] [INFO] BASELINE | VM: Ubantu-vm | IOPS: 6361 | Peak so far: 6361
+[2026-04-16 16:36:15] [INFO] =============================================
+[2026-04-16 16:36:15] [INFO]  BASELINE COMPLETE - learned peaks:
+[2026-04-16 16:36:15] [INFO]    Ubantu-vm -> peak 6361 IOPS | alert at 80% = 5089 IOPS
+[2026-04-16 16:36:15] [INFO]    WIndows-11 -> peak 1945 IOPS | alert at 80% = 1556 IOPS
+[2026-04-16 16:36:15] [INFO]  Switching to MONITORING mode
+[2026-04-16 16:36:15] [INFO] =============================================
+[2026-04-16 16:36:19] [INFO] VM: WIndows-11 | IOPS: 311 | Peak: 1945 | Usage: 16% | Threshold: 80% (1556 IOPS) | 2.6 MB/s R / 3.14 MB/s W
+[2026-04-16 16:36:19] [INFO] VM: Ubantu-vm - peak updated 6361 -> 6481 IOPS
+[2026-04-16 16:36:19] [INFO] VM: Ubantu-vm | IOPS: 6481 | Peak: 6481 | Usage: 100% | Threshold: 80% (5185 IOPS) | 0 MB/s R / 25.32 MB/s W
+[2026-04-16 16:36:19] [WARN] THRESHOLD EXCEEDED - VM: Ubantu-vm | 100% of peak - Sending Discord alert
+[2026-04-16 16:36:20] [INFO] Resolved discord.com to IPv4: 162.159.136.232
+[2026-04-16 16:36:21] [INFO] Discord alert sent for VM: Ubantu-vm (100% of peak, 6481 IOPS)
+[2026-04-16 16:36:55] [INFO] VM: WIndows-11 | IOPS: 6 | Peak: 1945 | Usage: 0.3% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 0.1 MB/s W
+[2026-04-16 16:36:55] [INFO] VM: Ubantu-vm - peak updated 6481 -> 15708 IOPS
+[2026-04-16 16:36:55] [INFO] VM: Ubantu-vm | IOPS: 15708 | Peak: 15708 | Usage: 100% | Threshold: 80% (12566 IOPS) | 0 MB/s R / 61.36 MB/s W
+[2026-04-16 16:36:55] [WARN] THRESHOLD EXCEEDED - VM: Ubantu-vm | Alert suppressed (cooldown, next alert in 0.4m)
+[2026-04-16 16:37:29] [INFO] VM: WIndows-11 | IOPS: 48 | Peak: 1945 | Usage: 2.5% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 2.11 MB/s W
+[2026-04-16 16:37:29] [INFO] VM: Ubantu-vm - peak updated 15708 -> 16531 IOPS
+[2026-04-16 16:37:29] [INFO] VM: Ubantu-vm | IOPS: 16531 | Peak: 16531 | Usage: 100% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 64.57 MB/s W
+[2026-04-16 16:37:29] [WARN] THRESHOLD EXCEEDED - VM: Ubantu-vm | 100% of peak - Sending Discord alert
+[2026-04-16 16:37:29] [INFO] Resolved discord.com to IPv4: 162.159.138.232
+[2026-04-16 16:37:30] [INFO] Discord alert sent for VM: Ubantu-vm (100% of peak, 16531 IOPS)
+[2026-04-16 16:38:04] [INFO] VM: WIndows-11 | IOPS: 4 | Peak: 1945 | Usage: 0.2% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 0.06 MB/s W
+[2026-04-16 16:38:04] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:38:38] [INFO] VM: WIndows-11 | IOPS: 5 | Peak: 1945 | Usage: 0.3% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 0.07 MB/s W
+[2026-04-16 16:38:38] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:39:13] [INFO] VM: WIndows-11 | IOPS: 11 | Peak: 1945 | Usage: 0.6% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 0.1 MB/s W
+[2026-04-16 16:39:13] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:39:47] [INFO] VM: WIndows-11 | IOPS: 14 | Peak: 1945 | Usage: 0.7% | Threshold: 80% (1556 IOPS) | 0.12 MB/s R / 0.14 MB/s W
+[2026-04-16 16:39:47] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:40:21] [INFO] VM: WIndows-11 | IOPS: 897 | Peak: 1945 | Usage: 46.1% | Threshold: 80% (1556 IOPS) | 20.44 MB/s R / 0.19 MB/s W
+[2026-04-16 16:40:21] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:40:55] [INFO] VM: WIndows-11 | IOPS: 10 | Peak: 1945 | Usage: 0.5% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 0.07 MB/s W
+[2026-04-16 16:40:55] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:41:29] [INFO] VM: WIndows-11 | IOPS: 13 | Peak: 1945 | Usage: 0.7% | Threshold: 80% (1556 IOPS) | 0.17 MB/s R / 0.09 MB/s W
+[2026-04-16 16:41:29] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:42:03] [INFO] VM: WIndows-11 | IOPS: 455 | Peak: 1945 | Usage: 23.4% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 35.26 MB/s W
+[2026-04-16 16:42:03] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:42:37] [INFO] VM: WIndows-11 | IOPS: 352 | Peak: 1945 | Usage: 18.1% | Threshold: 80% (1556 IOPS) | 0.35 MB/s R / 23.85 MB/s W
+[2026-04-16 16:42:37] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:43:11] [INFO] VM: WIndows-11 | IOPS: 81 | Peak: 1945 | Usage: 4.1% | Threshold: 80% (1556 IOPS) | 0.03 MB/s R / 1.82 MB/s W
+[2026-04-16 16:43:11] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:43:46] [INFO] VM: WIndows-11 | IOPS: 20 | Peak: 1945 | Usage: 1% | Threshold: 80% (1556 IOPS) | 0.1 MB/s R / 1.04 MB/s W
+[2026-04-16 16:43:46] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:44:20] [INFO] VM: WIndows-11 | IOPS: 2 | Peak: 1945 | Usage: 0.1% | Threshold: 80% (1556 IOPS) | 0.03 MB/s R / 0.11 MB/s W
+[2026-04-16 16:44:20] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:44:54] [INFO] VM: WIndows-11 | IOPS: 2 | Peak: 1945 | Usage: 0.1% | Threshold: 80% (1556 IOPS) | 0.07 MB/s R / 0 MB/s W
+[2026-04-16 16:44:54] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:45:28] [INFO] VM: WIndows-11 | IOPS: 1584 | Peak: 1945 | Usage: 81.4% | Threshold: 80% (1556 IOPS) | 0.7 MB/s R / 6.34 MB/s W
+[2026-04-16 16:45:28] [WARN] THRESHOLD EXCEEDED - VM: WIndows-11 | 81.4% of peak - Sending Discord alert
+[2026-04-16 16:45:28] [INFO] Resolved discord.com to IPv4: 162.159.135.232
+[2026-04-16 16:45:29] [INFO] Discord alert sent for VM: WIndows-11 (81.4% of peak, 1584 IOPS)
+[2026-04-16 16:45:29] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:46:03] [INFO] VM: WIndows-11 | IOPS: 1157 | Peak: 1945 | Usage: 59.5% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 4.64 MB/s W
+[2026-04-16 16:46:03] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:46:37] [INFO] VM: WIndows-11 | IOPS: 1467 | Peak: 1945 | Usage: 75.4% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 5.9 MB/s W
+[2026-04-16 16:46:37] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:47:11] [INFO] VM: WIndows-11 | IOPS: 1041 | Peak: 1945 | Usage: 53.6% | Threshold: 80% (1556 IOPS) | 0 MB/s R / 4.19 MB/s W
+[2026-04-16 16:47:12] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:47:46] [INFO] VM: WIndows-11 | IOPS: 1303 | Peak: 1945 | Usage: 67% | Threshold: 80% (1556 IOPS) | 0.09 MB/s R / 5.23 MB/s W
+[2026-04-16 16:47:46] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 16:48:20] [INFO] VM: WIndows-11 | IOPS: 1523 | Peak: 1945 | Usage: 78.3% | Threshold: 80% (1556 IOPS) | 0.04 MB/s R / 6.26 MB/s W
+[2026-04-16 16:48:20] [INFO] VM: Ubantu-vm | IOPS: 0 | Peak: 16531 | Usage: 0% | Threshold: 80% (13225 IOPS) | 0 MB/s R / 0 MB/s W
+[2026-04-16 18:32:53] [INFO] =============================================
+[2026-04-16 18:32:54] [INFO]  Hyper-V IOPS Monitor starting
+[2026-04-16 18:32:54] [INFO]  Node              : DESKTOP-LPV9HSD
+[2026-04-16 18:32:54] [INFO]  Threshold         : 80% of each VM peak
+[2026-04-16 18:32:54] [INFO]  Baseline window   : 10 minutes
+[2026-04-16 18:32:54] [INFO]  Poll Interval     : 30s
+[2026-04-16 18:32:54] [INFO]  Alert Cooldown    : 1m
+[2026-04-16 18:32:54] [INFO]  Log File          : C:\Scripts\HyperV-IOPS-Monitor.log
+[2026-04-16 18:32:54] [INFO] =============================================
+[2026-04-16 18:32:54] [INFO] BASELINE PHASE started - learning peak IOPS for 10 minutes...
+[2026-04-16 18:32:55] [ERROR] Get-Counter failed: The specified instance is not present.
+[2026-04-16 18:33:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:33:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:34:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:34:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:35:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:35:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:36:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:36:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:37:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:37:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:38:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:38:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:39:26] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:39:56] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:40:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:40:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:41:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:41:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:42:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:42:57] [INFO] =============================================
+[2026-04-16 18:42:57] [INFO]  BASELINE COMPLETE - learned peaks:
+[2026-04-16 18:42:57] [INFO]  Switching to MONITORING mode
+[2026-04-16 18:42:57] [INFO] =============================================
+[2026-04-16 18:42:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:43:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:43:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:44:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:44:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:45:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:45:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:46:27] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:46:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:47:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:47:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:48:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:48:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:49:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:49:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:50:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:50:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:51:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:51:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:52:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:52:58] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:53:29] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:54:00] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:54:30] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:55:01] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:55:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:56:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:56:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:57:09] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:57:41] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:58:12] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:58:42] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:59:14] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 18:59:45] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:00:21] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:00:54] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:01:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:02:00] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:02:44] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:03:17] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:03:51] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:04:47] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:05:51] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:06:35] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:07:18] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:07:51] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:08:28] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:09:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:09:40] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:10:20] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:10:57] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:11:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:12:08] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:12:43] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:13:20] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:15:01] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:15:31] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:16:01] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:16:31] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:17:01] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:17:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:18:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:18:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:19:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:19:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:20:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:20:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:21:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:21:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:22:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:22:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:23:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:23:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:24:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:24:32] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:25:02] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:25:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:26:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:26:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:27:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:27:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:28:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:28:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:29:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:29:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:30:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:30:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:31:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:31:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:32:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:32:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:33:03] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:33:33] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:34:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:34:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:35:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:35:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:36:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:36:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:37:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:37:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:38:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:38:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:39:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:39:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:40:04] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:40:34] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:41:05] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:41:35] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:42:05] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:42:35] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.
+[2026-04-16 19:43:05] [ERROR] Get-Counter failed: Internal performance counter API call failed. Error: 800007d1.

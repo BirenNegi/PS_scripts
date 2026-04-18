@@ -1,0 +1,97 @@
+﻿[2026-04-18 00:53:56] [INFO] =============================================
+[2026-04-18 00:53:57] [INFO]  Hyper-V IOPS Monitor starting on DESKTOP-LPV9HSD
+[2026-04-18 00:53:57] [INFO]  Threshold: 80% | Baseline: 10m | Interval: 30s | Cooldown: 10m
+[2026-04-18 00:53:57] [INFO] =============================================
+[2026-04-18 00:53:57] [INFO] BASELINE: learning peaks for 10 minutes...
+[2026-04-18 00:54:02] [INFO] BASELINE | WIndows-11 | IOPS: 0 | Peak: 0
+[2026-04-18 00:54:02] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:54:36] [INFO] BASELINE | WIndows-11 | IOPS: 0 | Peak: 0
+[2026-04-18 00:54:36] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:55:10] [INFO] BASELINE | WIndows-11 | IOPS: 0 | Peak: 0
+[2026-04-18 00:55:10] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:55:44] [INFO] BASELINE | WIndows-11 | IOPS: 485 | Peak: 485
+[2026-04-18 00:55:44] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:56:18] [INFO] BASELINE | WIndows-11 | IOPS: 10 | Peak: 485
+[2026-04-18 00:56:18] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:56:53] [INFO] BASELINE | WIndows-11 | IOPS: 0 | Peak: 485
+[2026-04-18 00:56:53] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:57:27] [INFO] BASELINE | WIndows-11 | IOPS: 3 | Peak: 485
+[2026-04-18 00:57:27] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:58:01] [INFO] BASELINE | WIndows-11 | IOPS: 6 | Peak: 485
+[2026-04-18 00:58:01] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 0
+[2026-04-18 00:58:35] [INFO] BASELINE | WIndows-11 | IOPS: 6 | Peak: 485
+[2026-04-18 00:58:35] [INFO] BASELINE | Ubantu-vm | IOPS: 12162 | Peak: 12162
+[2026-04-18 00:59:09] [INFO] BASELINE | WIndows-11 | IOPS: 3075 | Peak: 3075
+[2026-04-18 00:59:09] [INFO] BASELINE | Ubantu-vm | IOPS: 7562 | Peak: 12162
+[2026-04-18 00:59:43] [INFO] BASELINE | WIndows-11 | IOPS: 459 | Peak: 3075
+[2026-04-18 00:59:43] [INFO] BASELINE | Ubantu-vm | IOPS: 14582 | Peak: 14582
+[2026-04-18 01:00:17] [INFO] BASELINE | WIndows-11 | IOPS: 1011 | Peak: 3075
+[2026-04-18 01:00:17] [INFO] BASELINE | Ubantu-vm | IOPS: 753 | Peak: 14582
+[2026-04-18 01:00:51] [INFO] BASELINE | WIndows-11 | IOPS: 3873 | Peak: 3873
+[2026-04-18 01:00:51] [INFO] BASELINE | Ubantu-vm | IOPS: 4455 | Peak: 14582
+[2026-04-18 01:01:26] [INFO] BASELINE | WIndows-11 | IOPS: 4043 | Peak: 4043
+[2026-04-18 01:01:26] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 14582
+[2026-04-18 01:02:00] [INFO] BASELINE | WIndows-11 | IOPS: 4627 | Peak: 4627
+[2026-04-18 01:02:00] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 14582
+[2026-04-18 01:02:34] [INFO] BASELINE | WIndows-11 | IOPS: 3900 | Peak: 4627
+[2026-04-18 01:02:34] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 14582
+[2026-04-18 01:03:08] [INFO] BASELINE | WIndows-11 | IOPS: 4026 | Peak: 4627
+[2026-04-18 01:03:08] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 14582
+[2026-04-18 01:03:42] [INFO] BASELINE | WIndows-11 | IOPS: 4606 | Peak: 4627
+[2026-04-18 01:03:42] [INFO] BASELINE | Ubantu-vm | IOPS: 0 | Peak: 14582
+[2026-04-18 01:04:12] [INFO] BASELINE complete. Learned peaks:
+[2026-04-18 01:04:12] [INFO]   Ubantu-vm -> peak 14582 IOPS, alert at 80% = 11665 IOPS
+[2026-04-18 01:04:12] [INFO]   WIndows-11 -> peak 4627 IOPS, alert at 80% = 3701 IOPS
+[2026-04-18 01:04:12] [INFO] Switching to MONITORING mode
+[2026-04-18 01:04:12] [INFO] =============================================
+[2026-04-18 01:04:16] [INFO] WIndows-11 | IOPS: 3061 | Peak: 4627 | Usage: 66.2% | Threshold: 80% (3701 IOPS) | R: 0.24 MB/s | W: 12.58 MB/s
+[2026-04-18 01:04:16] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:04:50] [INFO] WIndows-11 | IOPS: 2552 | Peak: 4627 | Usage: 55.1% | Threshold: 80% (3701 IOPS) | R: 9.29 MB/s | W: 9.62 MB/s
+[2026-04-18 01:04:50] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:05:24] [INFO] WIndows-11 | IOPS: 2258 | Peak: 4627 | Usage: 48.8% | Threshold: 80% (3701 IOPS) | R: 1.27 MB/s | W: 9.41 MB/s
+[2026-04-18 01:05:24] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:05:58] [INFO] WIndows-11 | IOPS: 3479 | Peak: 4627 | Usage: 75.2% | Threshold: 80% (3701 IOPS) | R: 0.29 MB/s | W: 14.15 MB/s
+[2026-04-18 01:05:58] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:06:33] [INFO] WIndows-11 | IOPS: 2241 | Peak: 4627 | Usage: 48.4% | Threshold: 80% (3701 IOPS) | R: 0.35 MB/s | W: 9.29 MB/s
+[2026-04-18 01:06:33] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:07:07] [INFO] WIndows-11 | IOPS: 4031 | Peak: 4627 | Usage: 87.1% | Threshold: 80% (3701 IOPS) | R: 0.31 MB/s | W: 16.72 MB/s
+[2026-04-18 01:07:07] [WARN] ALERT: WIndows-11 at 87.1% of peak - sending Discord notification
+[2026-04-18 01:07:07] [INFO] Resolved discord.com to IPv4: 162.159.137.232
+[2026-04-18 01:07:08] [INFO] Discord alert sent for VM: WIndows-11 (87.1% of peak, 4031 IOPS)
+[2026-04-18 01:07:08] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:07:43] [INFO] WIndows-11 | IOPS: 2171 | Peak: 4627 | Usage: 46.9% | Threshold: 80% (3701 IOPS) | R: 0.59 MB/s | W: 8.95 MB/s
+[2026-04-18 01:07:43] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:08:17] [INFO] WIndows-11 | IOPS: 4214 | Peak: 4627 | Usage: 91.1% | Threshold: 80% (3701 IOPS) | R: 0.38 MB/s | W: 17.23 MB/s
+[2026-04-18 01:08:17] [WARN] ALERT suppressed: WIndows-11 (cooldown, next in 8.8m)
+[2026-04-18 01:08:17] [INFO] Ubantu-vm | IOPS: 1 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0.01 MB/s
+[2026-04-18 01:08:51] [INFO] WIndows-11 | IOPS: 3747 | Peak: 4627 | Usage: 81% | Threshold: 80% (3701 IOPS) | R: 0.6 MB/s | W: 15.42 MB/s
+[2026-04-18 01:08:51] [WARN] ALERT suppressed: WIndows-11 (cooldown, next in 8.3m)
+[2026-04-18 01:08:51] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:09:25] [INFO] WIndows-11 | IOPS: 3877 | Peak: 4627 | Usage: 83.8% | Threshold: 80% (3701 IOPS) | R: 0.67 MB/s | W: 16.84 MB/s
+[2026-04-18 01:09:25] [WARN] ALERT suppressed: WIndows-11 (cooldown, next in 7.7m)
+[2026-04-18 01:09:25] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:09:59] [INFO] WIndows-11 | IOPS: 3843 | Peak: 4627 | Usage: 83.1% | Threshold: 80% (3701 IOPS) | R: 0.25 MB/s | W: 17.16 MB/s
+[2026-04-18 01:09:59] [WARN] ALERT suppressed: WIndows-11 (cooldown, next in 7.1m)
+[2026-04-18 01:09:59] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:10:33] [INFO] WIndows-11 | IOPS: 7 | Peak: 4627 | Usage: 0.2% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0.04 MB/s
+[2026-04-18 01:10:33] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:11:07] [INFO] WIndows-11 | IOPS: 1 | Peak: 4627 | Usage: 0% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0.04 MB/s
+[2026-04-18 01:11:07] [INFO] Ubantu-vm | IOPS: 80 | Peak: 14582 | Usage: 0.5% | Threshold: 80% (11665 IOPS) | R: 0.43 MB/s | W: 0 MB/s
+[2026-04-18 01:11:41] [INFO] WIndows-11 | IOPS: 1 | Peak: 4627 | Usage: 0% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0.06 MB/s
+[2026-04-18 01:11:41] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:12:15] [INFO] WIndows-11 | IOPS: 0 | Peak: 4627 | Usage: 0% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:12:15] [INFO] Ubantu-vm | IOPS: 1 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:12:49] [INFO] WIndows-11 | IOPS: 535 | Peak: 4627 | Usage: 11.6% | Threshold: 80% (3701 IOPS) | R: 10.92 MB/s | W: 0.44 MB/s
+[2026-04-18 01:12:49] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:13:24] [INFO] WIndows-11 | IOPS: 1 | Peak: 4627 | Usage: 0% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0.01 MB/s
+[2026-04-18 01:13:24] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:13:58] [INFO] WIndows-11 | IOPS: 6 | Peak: 4627 | Usage: 0.1% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0.1 MB/s
+[2026-04-18 01:13:58] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:14:32] [INFO] WIndows-11 | IOPS: 2 | Peak: 4627 | Usage: 0.1% | Threshold: 80% (3701 IOPS) | R: 0.05 MB/s | W: 0 MB/s
+[2026-04-18 01:14:32] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:15:06] [INFO] WIndows-11 | IOPS: 5 | Peak: 4627 | Usage: 0.1% | Threshold: 80% (3701 IOPS) | R: 0.07 MB/s | W: 0.05 MB/s
+[2026-04-18 01:15:06] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:15:40] [INFO] WIndows-11 | IOPS: 4 | Peak: 4627 | Usage: 0.1% | Threshold: 80% (3701 IOPS) | R: 0.08 MB/s | W: 0.01 MB/s
+[2026-04-18 01:15:40] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:16:14] [INFO] WIndows-11 | IOPS: 0 | Peak: 4627 | Usage: 0% | Threshold: 80% (3701 IOPS) | R: 0 MB/s | W: 0 MB/s
+[2026-04-18 01:16:14] [INFO] Ubantu-vm | IOPS: 0 | Peak: 14582 | Usage: 0% | Threshold: 80% (11665 IOPS) | R: 0 MB/s | W: 0 MB/s
